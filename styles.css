@@ -4,10 +4,21 @@
   --grey-color: hsl(216, 12%, 54%);
   --dark-blue-color: hsl(213, 19%, 18%);
   --darker-blue-color: hsl(216, 12%, 8%);
+  --blackish-color: #141519;
 }
 
 body {
+  background-color: var(--blackish-color);
+  /* this lines are for centering content*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rating-card {
   background-color: var(--dark-blue-color);
+  padding: 1rem, 1rem, 1rem, 1rem;
+  border-radius: 10px;
 }
 
 .attribution { font-size: 11px; text-align: center; }
